@@ -1,0 +1,234 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Comfort Running Shoes",
+      "price": 150,
+      "category": "tech",
+      "img": "../uploads/fd-2.jpg",
+      "description": "A blend of style and comfort for your runs."
+    },
+    {
+      "id": "2",
+      "name": "Organic Face Serum",
+      "price": 7500,
+      "category": "skincare",
+      "img": "../uploads/fd-2.jpg",
+      "description": "Nourishes and revitalizes your skin naturally.",
+      "featured":"true"
+    },
+    {
+      "id": "3",
+      "name": "Aromatherapy Diffuser",
+      "price": 10000,
+      "category": "home",
+      "img": "../uploads/fd-2.jpg",
+      "description": "Create a calm and peaceful ambiance.",
+      "featured":"true"
+    },
+    {
+      "id": "4",
+      "name": "Comfort Yoga Mat",
+      "price": 8000,
+      "category": "wellness",
+      "featured":"true",
+      "img": "../uploads/fd-2.jpg",
+      "description": "A non-slip mat for your daily practice."
+    },
+    {
+      "id": "5",
+      "name": "Handmade Body Scrub",
+      "price": 3500,
+      "category": "skincare",
+      "featured":"true",
+      "img": "https://images.unsplash.com/photo-1512496010534-118c773a4b9f?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Exfoliates and moisturizes for soft skin."
+    },
+    {
+      "id": "6",
+      "name": "Natural Face Mask",
+      "price": 4200,
+      "category": "skincare",
+      "img": "https://images.unsplash.com/photo-1582216487928-8959d2a2334f?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Detoxifies and brightens your complexion."
+    },
+    {
+      "id": "7",
+      "name": "Herbal Loose-Leaf Tea",
+      "price": 3800,
+      "category": "wellness",
+      "img": "https://images.unsplash.com/photo-1588661706689-54316666986e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A soothing blend for a perfect cup of tea."
+    },
+    {
+      "id": "8",
+      "name": "Portable Smart Speaker",
+      "price": 25000,
+      "category": "tech",
+      "img": "https://images.unsplash.com/photo-1584824486515-0d67f185d681?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "High-quality sound for on-the-go."
+    },
+    {
+      "id": "9",
+      "name": "Sustainable Tote Bag",
+      "price": 4500,
+      "category": "home",
+      "img": "https://images.unsplash.com/photo-1620799140408-edc6d1abf318?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Eco-friendly and stylish for your daily needs."
+    },
+    {
+      "id": "10",
+      "name": "Meditation Cushion",
+      "price": 6000,
+      "category": "wellness",
+      "img": "https://images.unsplash.com/photo-1594916325902-8a901f41b9d4?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Provides comfort for your mindfulness practice."
+    },
+    {
+      "id": "11",
+      "name": "Wireless Headphones",
+      "price": 20000,
+      "category": "tech",
+      "img": "https://images.unsplash.com/photo-1542291026-79ed971805b6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Immersive sound quality for your music."
+    },
+    {
+      "id": "12",
+      "name": "Herbal Shampoo Bar",
+      "price": 3000,
+      "category": "skincare",
+      "img": "https://images.unsplash.com/photo-1599873634088-e215886d9a18?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Eco-friendly and great for all hair types."
+    },
+    {
+      "id": "13",
+      "name": "Indoor Succulent Plant",
+      "price": 4500,
+      "category": "home",
+      "img": "https://images.unsplash.com/photo-1571216503923-0975e1146863?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A beautiful addition to any home or office."
+    },
+    {
+      "id": "14",
+      "name": "Handmade Scented Candle",
+      "price": 3200,
+      "category": "home",
+      "img": "https://images.unsplash.com/photo-1594916325902-8a901f41b9d4?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Creates a relaxing and cozy atmosphere."
+    },
+    {
+      "id": "15",
+      "name": "Organic Lip Balm",
+      "price": 1500,
+      "category": "skincare",
+      "img": "https://images.unsplash.com/photo-1512496010534-118c773a4b9f?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Hydrates and protects your lips naturally."
+    },
+    {
+      "id": "16",
+      "name": "Bamboo Toothbrush Set",
+      "price": 2000,
+      "category": "wellness",
+      "img": "https://images.unsplash.com/photo-1582216487928-8959d2a2334f?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "An eco-friendly alternative to plastic brushes."
+    },
+    {
+      "id": "17",
+      "name": "Stainless Steel Water Bottle",
+      "price": 6500,
+      "category": "tech",
+      "img": "https://images.unsplash.com/photo-1588661706689-54316666986e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Keeps your drinks hot or cold for hours."
+    },
+    {
+      "id": "18",
+      "name": "Noise-Cancelling Earbuds",
+      "price": 18000,
+      "category": "tech",
+      "img": "https://images.unsplash.com/photo-1584824486515-0d67f185d681?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Enjoy your music without distractions."
+    },
+    {
+      "id": "19",
+      "name": "Portable Hand Massager",
+      "price": 9000,
+      "category": "wellness",
+      "img": "https://images.unsplash.com/photo-1620799140408-edc6d1abf318?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Relieves stress and tension in your hands."
+    },
+    {
+      "id": "20",
+      "name": "Smartwatch for Fitness",
+      "price": 35000,
+      "category": "tech",
+      "img": "https://images.unsplash.com/photo-1594916325902-8a901f41b9d4?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Tracks your health and fitness goals."
+    },
+    {
+      "name": "wedding",
+      "price": 1000,
+      "category": "wellness",
+      "img": "https://drive.google.com/file/d/1pojt04YXiTpG7QxmoqUybdkFGMerQgnt/view?usp=drive_link",
+      "description": "test",
+      "id": "21"
+    },
+    {
+      "name": "Shoes",
+      "price": 50000,
+      "category": "wellness",
+      "img": "/uploads/blog-image-1756640334772.jpg",
+      "description": "Men's shoes",
+      "id": "22"
+    }
+  ],
+  "users": {
+    "admin": {
+      "username": "admin",
+      "password": "password123"
+    }
+  },
+  "blogs": [
+    {
+      "id": "1",
+      "featured":"true",
+      "title": "A Guide to Beginner Photography",
+      "author": "Jane Doe",
+      "img": "https://images.unsplash.com/photo-1510414842594-ce88f7738152",
+      "content": "Photography is a wonderful hobby. Here are some tips to get you started...",
+      "date": "2025-08-31"
+    },
+    {
+      "id": "2",
+      "featured":"true",
+      "title": "The Benefits of Sustainable Fashion",
+      "author": "John Smith",
+      "img": "",
+      "content": "Sustainable fashion is about more than just clothes...",
+      "date": "2025-08-31"
+    },
+    {
+      "id": "3",
+      "title": "Future Post - This should not appear yet!",
+      "author": "Admin",
+      "img": "https://images.unsplash.com/photo-1549488344-93310022713f",
+      "content": "This post is scheduled to be released on a future date.",
+      "date": "2025-09-15"
+    },
+    {
+      "title": "God is good",
+      "author": "Mayowa",
+      "img": "/uploads/blog-image-1756640249395.jpg",
+      "content": "This is a fine dress",
+      "date": "2025-08-31",
+      "id": "4"
+    },
+    {
+      "title": "God is good",
+      "author": "Mayowa",
+      "img": "",
+      "content": "<p>tetetetetetete</p>",
+      "date": "2025-08-31",
+      "id": "5"
+    }
+  ]
+}
