@@ -12,8 +12,12 @@
       "dest": "server/server.js"
     },
     {
-      "src": "/uploads/(.*)",
-      "dest": "server/uploads/$1"
+      "src": "/admin/dashboard.html",
+      "dest": "admin/dashboard.html"
+    },
+    {
+      "src": "/admin/login.html",
+      "dest": "admin/login.html"
     },
     {
       "src": "/admin/(.*)",
