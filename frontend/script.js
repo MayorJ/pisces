@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'http://localhost:3000';
+    const API_URL = '';
+    // const API_URL = 'http://localhost:3000';
 
     const renderProducts = (products, containerId) => {
         const container = document.getElementById(containerId);
