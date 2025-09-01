@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (searchTerm) {
                     filteredProducts = filteredProducts.filter(p => 
                         p.name.toLowerCase().includes(searchTerm) || 
-                        p.description.toLowerCase().includes(searchTerm)
+                        (p.description && p.description.toLowerCase().includes(searchTerm))
                     );
                 }
 
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (searchTerm) {
                     filteredBlogs = filteredBlogs.filter(b =>
                         b.title.toLowerCase().includes(searchTerm) ||
-                        b.content.toLowerCase().includes(searchTerm)
+                        (b.content && b.content.toLowerCase().includes(searchTerm))
                     );
                 }
 
