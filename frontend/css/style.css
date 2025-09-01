@@ -1,0 +1,298 @@
+/* Custom CSS Variables */
+:root {
+    --primary-color: #2e8b57; /* Sea Green */
+    --primary-light: #52c27b;
+    --primary-dark: #1f6b40;
+    --text-color: #343a40;
+    --background-color: #f8f9fa;
+    --card-bg-color: #fff;
+    --header-bg: #212529;
+}
+
+/* General Body and Main Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Logo Animation */
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-family: 'Georgia', serif;
+    color: transparent; /* Hide text color to show gradient */
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-light), var(--primary-color));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient-animation 4s ease-in-out infinite;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    background-position: center;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+/* Video Hero Section */
+.video-hero-section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.video-overlay h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.video-overlay p.lead {
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .video-overlay h1 {
+        font-size: 3rem;
+    }
+    .video-overlay p.lead {
+        font-size: 1.25rem;
+    }
+}
+
+/* Featured Sections */
+.featured-products, .featured-blogs {
+    padding: 4rem 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.featured-products .container, .featured-blogs .container {
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    color: var(--text-color);
+}
+
+/* Card Styling for Products and Blogs */
+.product-card, .blog-card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.product-card:hover, .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.15);
+}
+
+.product-card .card-img-top, .blog-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.product-card .card-body, .blog-card .card-body {
+    padding: 1.5rem;
+}
+
+.product-card .card-title, .blog-card .card-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.product-card .card-text, .blog-card .card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.product-card .fw-bold {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.blog-card .blog-content {
+    margin-top: 1rem;
+}
+
+.blog-card .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.blog-card .btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+/* Blog Post Page Specific Styling */
+.blog-post-image {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.blog-content h1, .blog-content h2, .blog-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.blog-content p {
+    margin-bottom: 1rem;
+}
+
+.blog-content ul, .blog-content ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.blog-content blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #555;
+}
+
+/* Filter and Search Bar Styling */
+.form-control, .form-select {
+    border-radius: 0.375rem;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.25);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Custom CSS for the Admin Button */
+.admin-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-btn:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar adjustments for mobile */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .admin-btn {
+        margin-top: 1rem;
+    }
+}
