@@ -12,20 +12,8 @@
       "dest": "server/server.js"
     },
     {
-      "src": "/admin/dashboard.html",
-      "dest": "admin/dashboard.html"
-    },
-    {
-      "src": "/admin/login.html",
-      "dest": "admin/login.html"
-    },
-    {
-      "src": "/admin/(.*)",
-      "dest": "admin/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "frontend/$1"
+      "dest": "public/$1"
     }
   ]
 }
